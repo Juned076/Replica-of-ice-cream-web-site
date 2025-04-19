@@ -1,0 +1,197 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text */
+  }
+  
+  /* Navigation Bar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50; /* Dark blue */
+    padding: 1rem 2rem;
+  }
+  
+  nav .logo h1 {
+    color: #ecf0f1; /* Light grey */
+    margin: 0;
+  }
+  
+  nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+  }
+  
+  nav .nav-links a {
+    color: #ecf0f1; /* Light grey */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav .nav-links a:hover {
+    color: #3498db; /* Light blue */
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('./HD-Ice-Cream-Cone-Backgrounds.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ecf0f1; /* Light grey */
+  }
+  
+  .hero-content h2 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .btn {
+    background-color: #3498db; /* Light blue */
+    color: #ecf0f1; /* Light grey */
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #2980b9; /* Darker blue */
+  }
+  
+  /* Menu Section */
+  .menu {
+    padding: 2rem;
+    text-align: center;
+    background-color: #ffffff; /* White */
+  }
+  
+  .menu h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #2c3e50; /* Dark blue */
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .menu-item {
+    background-color: #ecf0f1; /* Light grey */
+    padding: 1rem;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .menu-item h3 {
+    margin: 1rem 0 0.5rem;
+    color: #2c3e50; /* Dark blue */
+  }
+  
+  .menu-item p {
+    color: #7f8c8d; /* Grey */
+  }
+  
+  /* Flavours Section */
+  .flavours {
+    padding: 2rem;
+    text-align: center;
+    background-color: #ecf0f1; /* Light grey */
+  }
+  
+  .flavours h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50; /* Dark blue */
+  }
+  
+  .flavours p {
+    color: #7f8c8d; /* Grey */
+  }
+  
+  /* Range Section */
+  .range {
+    padding: 2rem;
+    text-align: center;
+    background-color: #ffffff; /* White */
+  }
+  
+  .range h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50; /* Dark blue */
+  }
+  
+  .range p {
+    color: #7f8c8d; /* Grey */
+  }
+  
+  /* About Section */
+  .about {
+    padding: 2rem;
+    text-align: center;
+    background-color: #ecf0f1; /* Light grey */
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50; /* Dark blue */
+  }
+  
+  .about p {
+    color: #7f8c8d; /* Grey */
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 2rem;
+    text-align: center;
+    background-color: #ffffff; /* White */
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50; /* Dark blue */
+  }
+  
+  .contact address {
+    font-style: normal;
+    color: #7f8c8d; /* Grey */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #2c3e50; /* Dark blue */
+    color: #ecf0f1; /* Light grey */
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
